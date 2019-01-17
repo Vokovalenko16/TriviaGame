@@ -1,0 +1,77 @@
+body {
+    background-image: url("/assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.mainbody1 {
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    padding: 30px;
+    background-color: black;
+    width: 550px;
+    height: 550px;
+    border: 5px solid yellow;
+}
+.title1  {
+    text-align: center;
+    color: yellow;
+}
+
+.mainbody1 >span {
+    position: relative;
+    left: 145px;
+    top: 50px;
+    float: center;
+    color: yellow;
+    font-size: 32px;
+}
+
+.question{
+    position: relative;
+    top: 50px;
+    left: 15px;
+    color: yellow;
+    font-size: 22px;
+    width: 500px;
+    height: 100px;
+}
+.answers{
+    position: relative;
+    top: 20px;
+    height: 300px;
+    background-color: black;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+#a1 {
+    position: relative;
+    top: 40px;
+    margin-top: 10px;
+    background-color: blue;
+    border: 3px solid yellow;
+    padding: 10px;
+    border-radius: 10%;
+}
+#a1:hover {
+    transition: 1s;
+    background-color: yellow;
+
+}
+
+button{
+    position: relative;
+    padding: 15px 35px;
+    left: -35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+button:hover {
+    background-color: yellow;
+    transition: 1s;
+}
