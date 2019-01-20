@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/images/logo.png");
+    background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -44,20 +44,21 @@ body {
     top: 20px;
     height: 300px;
     background-color: black;
-    color: black;
-    font-size: 22px;
+    color: red;
+    font-size: 24px;
     text-align: center;
 }
-#a1 {
+.a1 {
     position: relative;
     top: 40px;
+    color: yellow;
     margin-top: 10px;
     background-color: blue;
     border: 3px solid yellow;
     padding: 10px;
     border-radius: 10%;
 }
-#a1:hover {
+.a1:hover {
     transition: 1s;
     background-color: yellow;
 
