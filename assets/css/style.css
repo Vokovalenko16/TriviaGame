@@ -41,12 +41,25 @@ body {
 }
 .answers{
     position: relative;
-    top: 20px;
+    top: -15px;
     height: 300px;
     background-color: black;
     color: red;
     font-size: 24px;
     text-align: center;
+}
+
+#sc1{
+    color: red;
+    position: relative;
+    left: -350px;
+    font-size: 80px;
+}
+#sc2 {
+    color: red;
+    position: relative;
+    left: 50px;
+    font-size: 80px;
 }
 .a1 {
     position: relative;
